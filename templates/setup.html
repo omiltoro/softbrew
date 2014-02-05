@@ -1,0 +1,40 @@
+
+{% extends "index.html" %}
+
+{% block title %} server setup wizard {% endblock %}
+
+{% block body_block %}
+<div class="hero-unit">
+
+Initial setup wizard
+
+<form method="post" action="">
+    {% csrf_token %}
+    <table>
+    {{serverDetails}}
+    </table>
+    <input type="submit" value="Save Server Details"/>
+</form>
+
+
+        {% if errors %}
+        <ul>
+            {% for error in errors %}
+            <li>{{ error }}</li>
+            {% endfor %}
+        </ul>
+        {% endif %}
+
+</div>
+{% endblock %}
+
+
+<!--
+<br>
+
+    <span>Enter OpenMRS server address: <input type="text" name="serverAddress" placeholder="http://localhost:8081/openmrs-standalone"></span>
+    <p>Enter OpenMRS username: <input type="text" name="serverUsername" placeholder="username"> </p>
+    <p> Enter OpenMRS password: <input type="password" name="serverPassword" placeholder="password"> </p>
+    <p><input type="submit" value="Test Server Connection"> <input type="submit" value="Cancel"></p>
+
+-->

@@ -1,0 +1,58 @@
+{% extends "index.html" %}
+
+{% block title %} User Profile {% endblock %}
+
+{% block body_block %}
+
+<div class="hero-unit">
+
+Alerts |Settings
+
+<br>
+<br>
+<!-- should allow user to create new job, view previous jobs and their status, allow you to change your status-->
+
+
+        <form id="newjob_form" method="post" action="/setup/"> <!--should take you to new job wizard creation previosuly jobserversettings-->
+            {% csrf_token %}
+             <input type="submit" value="Create New Job">
+        </form>
+
+        {% if errors %}
+        <ul>
+            {% for error in errors %}
+            <li>{{ error }}</li>
+            {% endfor %}
+        </ul>
+        {% endif %}
+
+<br>
+<br>
+
+
+   {%  if jobStatus_list %}
+
+        <table border="1">
+        <thead> User Activity</thead>
+
+        <tr>
+            <td>Date Created</td>
+            <td>Job Name</td>
+            <td>Status</td>  <!--complete, ongoing, for review , pending -->
+        </tr>
+
+        {%  for jobstatus  in jobStatus_list %}
+            <tr>
+                <td class ='jobstatus'>{{ jobstatus.dateUpdated }}</td>
+                <td class ='jobstatus'>{{ jobstatus.idJobs }}</td>
+                <td class ='jobstatus'>{{ jobstatus.jobStatus }}</td>
+            </tr>
+
+        {% endfor %}
+        </table>
+    {%  else %}
+        <p> No Updated Job Status found</p>
+    {%  endif %}
+
+</div>
+{% endblock %}
