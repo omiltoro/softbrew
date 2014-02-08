@@ -17,6 +17,7 @@ from OMRS.forms import serverForm
 
 # Create your views here.
 
+
 def post_server_details(request):
     context = RequestContext(request)
     if request.method == 'GET':
@@ -154,6 +155,7 @@ def register(request):
 def user_login(request):
     # Like before, obtain the context for the user's request.
     context = RequestContext(request)
+    context_dict = {}
     c = {}
     c.update(csrf(request))
 
@@ -184,7 +186,9 @@ def user_login(request):
         else:
             # Bad login details were provided. So we can't log the user in.
             print "Invalid login details: {0}, {1}".format(username, password)
-            return HttpResponseRedirect('/')
+            context_dict['bad_details'] = True
+            return render_to_response('login.html', context_dict, context)
+            #return HttpResponseRedirect('/')
             #return HttpResponse("Invalid login details supplied.")
 
 
@@ -194,7 +198,7 @@ def user_login(request):
     else:
         # No context variables to pass to the template system, hence the
         # blank dictionary object...
-        return render_to_response('login.html', {}, context)
+        return render_to_response('login.html', context_dict, context)
 
 
 # Use the login_required() decorator to ensure only those logged in can access the view.

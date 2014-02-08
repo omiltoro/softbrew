@@ -4,9 +4,13 @@
 
 {% block body_block %}
 
-<div class="hero-unit">
+    {% if bad_details %}
+        <p>Your username and password didn't match. Please try again.</p>
+    {% endif %}
 
-        <form id="login_form" method="post" action="/login/">
+    <div class="hero-unit">
+
+    <form id="login_form" method="post" action="/login/">
             {% csrf_token %}
             <br/>
             <br/>
