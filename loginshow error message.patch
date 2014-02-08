@@ -1,0 +1,720 @@
+Index: openMRScap/settings.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- openMRScap/settings.py	(revision 01991893fcc041a3f6d32be35372b29380f9bf3d)
++++ openMRScap/settings.py	(revision )
+@@ -48,6 +48,7 @@
+     'django.contrib.staticfiles',
+     'django.contrib.admindocs',
+     'OMRS',
++
+ )
+ 
+ MIDDLEWARE_CLASSES = (
+\ No newline at end of file
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/misc.xml	(revision 01991893fcc041a3f6d32be35372b29380f9bf3d)
++++ .idea/misc.xml	(revision )
+@@ -1,27 +1,5 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+-  <component name="ProjectRootManager" version="2" project-jdk-name="Python 2.7.5 (/System/Library/Frameworks/Python.framework/Versions/2.7/bin/python)" project-jdk-type="Python SDK" />
+-  <component name="PyConsoleOptionsProvider">
+-    <option name="myPythonConsoleState">
+-      <console-settings />
+-    </option>
+-  </component>
+-  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
+-    <option name="USER" value="" />
+-    <option name="PASSWORD" value="" />
+-    <option name="mySSHConnectionTimeout" value="30000" />
+-    <option name="mySSHReadTimeout" value="30000" />
+-    <option name="LAST_MERGED_REVISION" />
+-    <option name="MERGE_DRY_RUN" value="false" />
+-    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+-    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+-    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+-    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+-    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+-    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+-    <option name="FORCE_UPDATE" value="false" />
+-    <option name="IGNORE_EXTERNALS" value="false" />
+-    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+-  </component>
++  <component name="ProjectRootManager" version="2" project-jdk-name="Python 2.7.4 (C:/Python27/python.exe)" project-jdk-type="Python SDK" />
+ </project>
+ 
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(revision 01991893fcc041a3f6d32be35372b29380f9bf3d)
++++ .idea/workspace.xml	(revision )
+@@ -1,6 +1,18 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="ChangeListManager">
++    <list default="true" id="03e71e30-4357-4636-ad94-6657572c6ddb" name="Default" comment="">
++      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
++      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/login.html" afterPath="$PROJECT_DIR$/templates/login.html" />
++      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
++      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/openMRScap.iml" afterPath="$PROJECT_DIR$/.idea/openMRScap.iml" />
++      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openMRScap/settings.py" afterPath="$PROJECT_DIR$/openMRScap/settings.py" />
++      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
++      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OMRS/views.py" afterPath="$PROJECT_DIR$/OMRS/views.py" />
++      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
++    </list>
++    <ignored path="softbrew.iws" />
++    <ignored path=".idea/workspace.xml" />
+     <option name="TRACKING_ENABLED" value="true" />
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -14,7 +26,92 @@
+   <component name="DaemonCodeAnalyzer">
+     <disable_hints />
+   </component>
+-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
++  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
++  <component name="FavoritesManager">
++    <favorites_list name="softbrew" />
++  </component>
++  <component name="FileEditorManager">
++    <leaf>
++      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
++        <entry file="file://$PROJECT_DIR$/OMRS/views.py">
++          <provider selected="true" editor-type-id="text-editor">
++            <state line="200" column="8" selection-start="7689" selection-end="7689" vertical-scroll-proportion="-12.56" vertical-offset="3086" max-vertical-offset="4658">
++              <folding>
++                <element signature="e#0#57#0" expanded="true" />
++              </folding>
++            </state>
++          </provider>
++        </entry>
++      </file>
++      <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
++        <entry file="file://$PROJECT_DIR$/openMRScap/settings.py">
++          <provider selected="true" editor-type-id="text-editor">
++            <state line="50" column="0" selection-start="1401" selection-end="1401" vertical-scroll-proportion="0.0" vertical-offset="656" max-vertical-offset="1972">
++              <folding />
++            </state>
++          </provider>
++        </entry>
++      </file>
++      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
++        <entry file="file://$PROJECT_DIR$/openMRScap/urls.py">
++          <provider selected="true" editor-type-id="text-editor">
++            <state line="34" column="43" selection-start="1235" selection-end="1256" vertical-scroll-proportion="0.0" vertical-offset="157" max-vertical-offset="918">
++              <folding>
++                <element signature="e#0#51#0" expanded="true" />
++              </folding>
++            </state>
++          </provider>
++        </entry>
++      </file>
++      <file leaf-file-name="login.html" pinned="false" current="true" current-in-tab="true">
++        <entry file="file://$PROJECT_DIR$/templates/login.html">
++          <provider selected="true" editor-type-id="text-editor">
++            <state line="6" column="7" selection-start="104" selection-end="104" vertical-scroll-proportion="0.114349775" vertical-offset="51" max-vertical-offset="697">
++              <folding />
++            </state>
++          </provider>
++        </entry>
++      </file>
++      <file leaf-file-name="bootstrap.css" pinned="false" current="false" current-in-tab="false">
++        <entry file="file://$PROJECT_DIR$/static/css/bootstrap.css">
++          <provider selected="true" editor-type-id="text-editor">
++            <state line="6119" column="5" selection-start="126744" selection-end="126748" vertical-scroll-proportion="-5.76" vertical-offset="103879" max-vertical-offset="104941">
++              <folding />
++            </state>
++          </provider>
++        </entry>
++      </file>
++    </leaf>
++  </component>
++  <component name="FindManager">
++    <FindUsagesManager>
++      <setting name="OPEN_NEW_TAB" value="false" />
++    </FindUsagesManager>
++  </component>
++  <component name="Git.Settings">
++    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
++  </component>
++  <component name="GitLogSettings">
++    <option name="myDateState">
++      <MyDateState />
++    </option>
++  </component>
++  <component name="IdeDocumentHistory">
++    <option name="changedFiles">
++      <list>
++        <option value="$PROJECT_DIR$/openMRScap/settings.py" />
++        <option value="$PROJECT_DIR$/OMRS/views.py" />
++        <option value="$PROJECT_DIR$/templates/login.html" />
++      </list>
++    </option>
++  </component>
++  <component name="ProjectFrameBounds">
++    <option name="x" value="-8" />
++    <option name="y" value="-8" />
++    <option name="width" value="1616" />
++    <option name="height" value="876" />
++  </component>
++  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+     <OptionsSetting value="true" id="Add" />
+     <OptionsSetting value="true" id="Remove" />
+     <OptionsSetting value="true" id="Checkout" />
+@@ -27,23 +124,385 @@
+   <component name="ProjectReloadState">
+     <option name="STATE" value="0" />
+   </component>
++  <component name="ProjectView">
++    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
++      <flattenPackages />
++      <showMembers />
++      <showModules />
++      <showLibraryContents />
++      <hideEmptyPackages />
++      <abbreviatePackageNames />
++      <autoscrollToSource />
++      <autoscrollFromSource />
++      <sortByType />
++    </navigator>
++    <panes>
++      <pane id="ProjectPane">
++        <subPane>
++          <PATH>
++            <PATH_ELEMENT>
++              <option name="myItemId" value="softbrew" />
++              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
++            </PATH_ELEMENT>
++          </PATH>
++          <PATH>
++            <PATH_ELEMENT>
++              <option name="myItemId" value="softbrew" />
++              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
++            </PATH_ELEMENT>
++            <PATH_ELEMENT>
++              <option name="myItemId" value="softbrew" />
++              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
++            </PATH_ELEMENT>
++          </PATH>
++          <PATH>
++            <PATH_ELEMENT>
++              <option name="myItemId" value="softbrew" />
++              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
++            </PATH_ELEMENT>
++            <PATH_ELEMENT>
++              <option name="myItemId" value="softbrew" />
++              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
++            </PATH_ELEMENT>
++            <PATH_ELEMENT>
++              <option name="myItemId" value="templates" />
++              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
++            </PATH_ELEMENT>
++          </PATH>
++          <PATH>
++            <PATH_ELEMENT>
++              <option name="myItemId" value="softbrew" />
++              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
++            </PATH_ELEMENT>
++            <PATH_ELEMENT>
++              <option name="myItemId" value="softbrew" />
++              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
++            </PATH_ELEMENT>
++            <PATH_ELEMENT>
++              <option name="myItemId" value="static" />
++              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
++            </PATH_ELEMENT>
++          </PATH>
++          <PATH>
++            <PATH_ELEMENT>
++              <option name="myItemId" value="softbrew" />
++              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
++            </PATH_ELEMENT>
++            <PATH_ELEMENT>
++              <option name="myItemId" value="softbrew" />
++              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
++            </PATH_ELEMENT>
++            <PATH_ELEMENT>
++              <option name="myItemId" value="static" />
++              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
++            </PATH_ELEMENT>
++            <PATH_ELEMENT>
++              <option name="myItemId" value="css" />
++              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
++            </PATH_ELEMENT>
++          </PATH>
++          <PATH>
++            <PATH_ELEMENT>
++              <option name="myItemId" value="softbrew" />
++              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
++            </PATH_ELEMENT>
++            <PATH_ELEMENT>
++              <option name="myItemId" value="softbrew" />
++              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
++            </PATH_ELEMENT>
++            <PATH_ELEMENT>
++              <option name="myItemId" value="openMRScap" />
++              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
++            </PATH_ELEMENT>
++          </PATH>
++          <PATH>
++            <PATH_ELEMENT>
++              <option name="myItemId" value="softbrew" />
++              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
++            </PATH_ELEMENT>
++            <PATH_ELEMENT>
++              <option name="myItemId" value="softbrew" />
++              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
++            </PATH_ELEMENT>
++            <PATH_ELEMENT>
++              <option name="myItemId" value="OMRS" />
++              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
++            </PATH_ELEMENT>
++          </PATH>
++        </subPane>
++      </pane>
++      <pane id="Scope" />
++    </panes>
++  </component>
+   <component name="PropertiesComponent">
+     <property name="options.splitter.main.proportions" value="0.3" />
+-    <property name="options.lastSelected" value="com.jetbrains.python.configuration.PythonSdkConfigurable" />
+-    <property name="options.searchVisible" value="true" />
++    <property name="WebServerToolWindowFactoryState" value="false" />
++    <property name="recentsLimit" value="5" />
++    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
++    <property name="restartRequiresConfirmation" value="true" />
++    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+     <property name="options.splitter.details.proportions" value="0.2" />
++    <property name="options.searchVisible" value="true" />
+   </component>
+-  <component name="RunManager">
+-    <list size="0" />
++  <component name="PyConsoleOptionsProvider">
++    <option name="myPythonConsoleState">
++      <console-settings />
++    </option>
+   </component>
++  <component name="RunManager" selected="Django server.test">
++    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
++      <option name="INTERPRETER_OPTIONS" value="" />
++      <option name="PARENT_ENVS" value="true" />
++      <envs>
++        <env name="PYTHONUNBUFFERED" value="1" />
++      </envs>
++      <option name="SDK_HOME" value="" />
++      <option name="WORKING_DIRECTORY" value="" />
++      <option name="IS_MODULE_SDK" value="false" />
++      <option name="ADD_CONTENT_ROOTS" value="true" />
++      <option name="ADD_SOURCE_ROOTS" value="true" />
++      <module name="openMRScap" />
++      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
++      <option name="TARGET" value="" />
++      <option name="SETTINGS_FILE" value="" />
++      <option name="CUSTOM_SETTINGS" value="false" />
++      <option name="USE_OPTIONS" value="false" />
++      <option name="OPTIONS" value="" />
++      <method />
++    </configuration>
++    <configuration default="true" type="tests" factoryName="py.test">
++      <option name="INTERPRETER_OPTIONS" value="" />
++      <option name="PARENT_ENVS" value="true" />
++      <envs />
++      <option name="SDK_HOME" value="" />
++      <option name="WORKING_DIRECTORY" value="" />
++      <option name="IS_MODULE_SDK" value="false" />
++      <option name="ADD_CONTENT_ROOTS" value="true" />
++      <option name="ADD_SOURCE_ROOTS" value="true" />
++      <module name="openMRScap" />
++      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
++      <option name="SCRIPT_NAME" value="" />
++      <option name="CLASS_NAME" value="" />
++      <option name="METHOD_NAME" value="" />
++      <option name="FOLDER_NAME" value="" />
++      <option name="TEST_TYPE" value="TEST_SCRIPT" />
++      <option name="PATTERN" value="" />
++      <option name="USE_PATTERN" value="false" />
++      <option name="testToRun" value="" />
++      <option name="keywords" value="" />
++      <option name="params" value="" />
++      <option name="USE_PARAM" value="false" />
++      <option name="USE_KEYWORD" value="false" />
++      <method />
++    </configuration>
++    <configuration default="true" type="tests" factoryName="Nosetests">
++      <option name="INTERPRETER_OPTIONS" value="" />
++      <option name="PARENT_ENVS" value="true" />
++      <envs />
++      <option name="SDK_HOME" value="" />
++      <option name="WORKING_DIRECTORY" value="" />
++      <option name="IS_MODULE_SDK" value="false" />
++      <option name="ADD_CONTENT_ROOTS" value="true" />
++      <option name="ADD_SOURCE_ROOTS" value="true" />
++      <module name="openMRScap" />
++      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
++      <option name="SCRIPT_NAME" value="" />
++      <option name="CLASS_NAME" value="" />
++      <option name="METHOD_NAME" value="" />
++      <option name="FOLDER_NAME" value="" />
++      <option name="TEST_TYPE" value="TEST_SCRIPT" />
++      <option name="PATTERN" value="" />
++      <option name="USE_PATTERN" value="false" />
++      <option name="PARAMS" value="" />
++      <option name="USE_PARAM" value="false" />
++      <method />
++    </configuration>
++    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
++      <option name="INTERPRETER_OPTIONS" value="" />
++      <option name="PARENT_ENVS" value="true" />
++      <envs>
++        <env name="PYTHONUNBUFFERED" value="1" />
++      </envs>
++      <option name="SDK_HOME" value="" />
++      <option name="WORKING_DIRECTORY" value="" />
++      <option name="IS_MODULE_SDK" value="false" />
++      <option name="ADD_CONTENT_ROOTS" value="true" />
++      <option name="ADD_SOURCE_ROOTS" value="true" />
++      <module name="openMRScap" />
++      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
++      <option name="SCRIPT_NAME" value="" />
++      <option name="PARAMETERS" value="" />
++      <method />
++    </configuration>
++    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
++      <method />
++    </configuration>
++    <configuration default="true" type="tests" factoryName="Unittests">
++      <option name="INTERPRETER_OPTIONS" value="" />
++      <option name="PARENT_ENVS" value="true" />
++      <envs />
++      <option name="SDK_HOME" value="" />
++      <option name="WORKING_DIRECTORY" value="" />
++      <option name="IS_MODULE_SDK" value="false" />
++      <option name="ADD_CONTENT_ROOTS" value="true" />
++      <option name="ADD_SOURCE_ROOTS" value="true" />
++      <module name="openMRScap" />
++      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
++      <option name="SCRIPT_NAME" value="" />
++      <option name="CLASS_NAME" value="" />
++      <option name="METHOD_NAME" value="" />
++      <option name="FOLDER_NAME" value="" />
++      <option name="TEST_TYPE" value="TEST_SCRIPT" />
++      <option name="PATTERN" value="" />
++      <option name="USE_PATTERN" value="false" />
++      <option name="PUREUNITTEST" value="true" />
++      <option name="PARAMS" value="" />
++      <option name="USE_PARAM" value="false" />
++      <method />
++    </configuration>
++    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
++      <option name="INTERPRETER_OPTIONS" value="" />
++      <option name="PARENT_ENVS" value="true" />
++      <envs>
++        <env name="PYTHONUNBUFFERED" value="1" />
++      </envs>
++      <option name="SDK_HOME" value="" />
++      <option name="WORKING_DIRECTORY" value="" />
++      <option name="IS_MODULE_SDK" value="false" />
++      <option name="ADD_CONTENT_ROOTS" value="true" />
++      <option name="ADD_SOURCE_ROOTS" value="true" />
++      <module name="openMRScap" />
++      <option name="launchJavascriptDebuger" value="false" />
++      <option name="port" value="8000" />
++      <option name="host" value="" />
++      <option name="additionalOptions" value="" />
++      <option name="browserUrl" value="" />
++      <option name="runTestServer" value="false" />
++      <option name="runNoReload" value="false" />
++      <option name="useCustomRunCommand" value="false" />
++      <option name="customRunCommand" value="" />
++      <method />
++    </configuration>
++    <configuration default="true" type="tests" factoryName="Doctests">
++      <option name="INTERPRETER_OPTIONS" value="" />
++      <option name="PARENT_ENVS" value="true" />
++      <envs />
++      <option name="SDK_HOME" value="" />
++      <option name="WORKING_DIRECTORY" value="" />
++      <option name="IS_MODULE_SDK" value="false" />
++      <option name="ADD_CONTENT_ROOTS" value="true" />
++      <option name="ADD_SOURCE_ROOTS" value="true" />
++      <module name="openMRScap" />
++      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
++      <option name="SCRIPT_NAME" value="" />
++      <option name="CLASS_NAME" value="" />
++      <option name="METHOD_NAME" value="" />
++      <option name="FOLDER_NAME" value="" />
++      <option name="TEST_TYPE" value="TEST_SCRIPT" />
++      <option name="PATTERN" value="" />
++      <option name="USE_PATTERN" value="false" />
++      <method />
++    </configuration>
++    <configuration default="true" type="tests" factoryName="Attests">
++      <option name="INTERPRETER_OPTIONS" value="" />
++      <option name="PARENT_ENVS" value="true" />
++      <envs />
++      <option name="SDK_HOME" value="" />
++      <option name="WORKING_DIRECTORY" value="" />
++      <option name="IS_MODULE_SDK" value="false" />
++      <option name="ADD_CONTENT_ROOTS" value="true" />
++      <option name="ADD_SOURCE_ROOTS" value="true" />
++      <module name="openMRScap" />
++      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
++      <option name="SCRIPT_NAME" value="" />
++      <option name="CLASS_NAME" value="" />
++      <option name="METHOD_NAME" value="" />
++      <option name="FOLDER_NAME" value="" />
++      <option name="TEST_TYPE" value="TEST_SCRIPT" />
++      <option name="PATTERN" value="" />
++      <option name="USE_PATTERN" value="false" />
++      <method />
++    </configuration>
++    <configuration default="false" name="test" type="Python.DjangoServer" factoryName="Django server">
++      <option name="INTERPRETER_OPTIONS" value="" />
++      <option name="PARENT_ENVS" value="true" />
++      <envs>
++        <env name="PYTHONUNBUFFERED" value="1" />
++        <env name="DJANGO_SETTINGS_MODULE" value="openMRScap.settings" />
++      </envs>
++      <option name="SDK_HOME" value="C:/Python27/python.exe" />
++      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
++      <option name="IS_MODULE_SDK" value="false" />
++      <option name="ADD_CONTENT_ROOTS" value="true" />
++      <option name="ADD_SOURCE_ROOTS" value="true" />
++      <module name="openMRScap" />
++      <option name="launchJavascriptDebuger" value="false" />
++      <option name="port" value="8000" />
++      <option name="host" value="localhost" />
++      <option name="additionalOptions" value="" />
++      <option name="browserUrl" value="" />
++      <option name="runTestServer" value="false" />
++      <option name="runNoReload" value="false" />
++      <option name="useCustomRunCommand" value="false" />
++      <option name="customRunCommand" value="" />
++      <RunnerSettings RunnerId="PythonRunner" />
++      <ConfigurationWrapper RunnerId="PythonRunner" />
++      <method />
++    </configuration>
++    <list size="1">
++      <item index="0" class="java.lang.String" itemvalue="Django server.test" />
++    </list>
++  </component>
+   <component name="ShelveChangesManager" show_recycled="false" />
++  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
++    <option name="USER" value="" />
++    <option name="PASSWORD" value="" />
++    <option name="mySSHConnectionTimeout" value="30000" />
++    <option name="mySSHReadTimeout" value="30000" />
++    <option name="LAST_MERGED_REVISION" />
++    <option name="MERGE_DRY_RUN" value="false" />
++    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
++    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
++    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
++    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
++    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
++    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
++    <option name="FORCE_UPDATE" value="false" />
++    <option name="IGNORE_EXTERNALS" value="false" />
++    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
++  </component>
+   <component name="TaskManager">
+     <task active="true" id="Default" summary="Default task">
++      <changelist id="03e71e30-4357-4636-ad94-6657572c6ddb" name="Default" comment="" />
+       <created>1391297389663</created>
+       <updated>1391297389663</updated>
+     </task>
+     <servers />
+   </component>
++  <component name="ToolWindowManager">
++    <frame x="-8" y="-8" width="1616" height="876" extended-state="0" />
++    <editor active="false" />
++    <layout>
++      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
++      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
++      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
++      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
++      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
++      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
++      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2525" sideWeight="0.671159" order="0" side_tool="false" content_ui="combo" />
++      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
++      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
++      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32884097" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
++      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32884097" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
++      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
++      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
++      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
++      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
++      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
++      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
++      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
++    </layout>
++  </component>
+   <component name="VcsContentAnnotationSettings">
+     <option name="myLimit" value="2678400000" />
+   </component>
+@@ -54,6 +513,47 @@
+   </component>
+   <component name="XDebuggerManager">
+     <breakpoint-manager />
++  </component>
++  <component name="editorHistoryManager">
++    <entry file="file://$PROJECT_DIR$/openMRScap/urls.py">
++      <provider selected="true" editor-type-id="text-editor">
++        <state line="34" column="43" selection-start="1235" selection-end="1256" vertical-scroll-proportion="0.0" vertical-offset="157" max-vertical-offset="918">
++          <folding>
++            <element signature="e#0#51#0" expanded="true" />
++          </folding>
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/openMRScap/settings.py">
++      <provider selected="true" editor-type-id="text-editor">
++        <state line="50" column="0" selection-start="1401" selection-end="1401" vertical-scroll-proportion="0.0" vertical-offset="656" max-vertical-offset="1972">
++          <folding />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/static/css/bootstrap.css">
++      <provider selected="true" editor-type-id="text-editor">
++        <state line="6119" column="5" selection-start="126744" selection-end="126748" vertical-scroll-proportion="-5.76" vertical-offset="103879" max-vertical-offset="104941">
++          <folding />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/OMRS/views.py">
++      <provider selected="true" editor-type-id="text-editor">
++        <state line="200" column="8" selection-start="7689" selection-end="7689" vertical-scroll-proportion="-12.56" vertical-offset="3086" max-vertical-offset="4658">
++          <folding>
++            <element signature="e#0#57#0" expanded="true" />
++          </folding>
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/templates/login.html">
++      <provider selected="true" editor-type-id="text-editor">
++        <state line="6" column="7" selection-start="104" selection-end="104" vertical-scroll-proportion="0.114349775" vertical-offset="51" max-vertical-offset="697">
++          <folding />
++        </state>
++      </provider>
++    </entry>
+   </component>
+ </project>
+ 
+Index: templates/login.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- templates/login.html	(revision 01991893fcc041a3f6d32be35372b29380f9bf3d)
++++ templates/login.html	(revision )
+@@ -4,6 +4,10 @@
+ 
+ {% block body_block %}
+ 
++{% if bad_details %}
++<p>Your username and password didn't match. Please try again.</p>
++{% endif %}
++
+ <div class="hero-unit">
+ 
+         <form id="login_form" method="post" action="/login/">
+Index: .idea/openMRScap.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/openMRScap.iml	(revision 01991893fcc041a3f6d32be35372b29380f9bf3d)
++++ .idea/openMRScap.iml	(revision )
+@@ -11,9 +11,12 @@
+   </component>
+   <component name="NewModuleRootManager">
+     <content url="file://$MODULE_DIR$" />
+-    <orderEntry type="inheritedJdk" />
++    <orderEntry type="jdk" jdkName="Python 2.7.4 (C:/Python27/python.exe)" jdkType="Python SDK" />
+     <orderEntry type="sourceFolder" forTests="false" />
+   </component>
++  <component name="PyDocumentationSettings">
++    <option name="myDocStringFormat" value="Plain" />
++  </component>
+   <component name="TemplatesService">
+     <option name="TEMPLATE_CONFIGURATION" value="Django" />
+     <option name="TEMPLATE_FOLDERS">
+@@ -21,6 +24,10 @@
+         <option value="$MODULE_DIR$/templates" />
+       </list>
+     </option>
++  </component>
++  <component name="TestRunnerService">
++    <option name="projectConfiguration" value="Unittests" />
++    <option name="PROJECT_TEST_RUNNER" value="Unittests" />
+   </component>
+ </module>
+ 
+Index: OMRS/views.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- OMRS/views.py	(revision 01991893fcc041a3f6d32be35372b29380f9bf3d)
++++ OMRS/views.py	(revision )
+@@ -17,6 +17,7 @@
+ 
+ # Create your views here.
+ 
++
+ def post_server_details(request):
+     context = RequestContext(request)
+     if request.method == 'GET':
+@@ -154,6 +155,7 @@
+ def user_login(request):
+     # Like before, obtain the context for the user's request.
+     context = RequestContext(request)
++    context_dict = {}
+     c = {}
+     c.update(csrf(request))
+ 
+@@ -184,7 +186,9 @@
+         else:
+             # Bad login details were provided. So we can't log the user in.
+             print "Invalid login details: {0}, {1}".format(username, password)
+-            return HttpResponseRedirect('/')
++            context_dict['bad_details'] = True
++            return render_to_response('login.html', context_dict, context)
++            #return HttpResponseRedirect('/')
+             #return HttpResponse("Invalid login details supplied.")
+ 
+ 
+@@ -194,7 +198,8 @@
+     else:
+         # No context variables to pass to the template system, hence the
+         # blank dictionary object...
+-        return render_to_response('login.html', {}, context)
++        return render_to_response('login.html', context_dict, context)
++
+ 
+ 
+ # Use the login_required() decorator to ensure only those logged in can access the view.
+\ No newline at end of file
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/vcs.xml	(revision 01991893fcc041a3f6d32be35372b29380f9bf3d)
++++ .idea/vcs.xml	(revision )
+@@ -2,6 +2,7 @@
+ <project version="4">
+   <component name="VcsDirectoryMappings">
+     <mapping directory="" vcs="" />
++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+   </component>
+ </project>
+ 
